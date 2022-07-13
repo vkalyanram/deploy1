@@ -1,0 +1,17 @@
+pip install django-heroku
+heroku create app_one_name
+https://app-one-name01.herokuapp.com/ | https://git.heroku.com/app-one-name01.git
+
+
+ 1966  pip freeze > requirements.txt
+ 1967  cat requirements.txt 
+       git add .
+ 2039  git commit -am "as"
+ 2040  heroku config:set DISABLE_COLLECTSTATIC=1
+ 2041  heroku ps:scale web=1
+ 2042  git push heroku master
+ 2043  heroku run python manage.py migrate
+ 2044  heroku open 
+<-----heroku ps-------heroku ps:stop run.4859------------>
+https://www.analyticsvidhya.com/blog/2020/10/step-by-step-guide-for-deploying-a-django-application-using-heroku-for-free/
+<--------------to stop --app--resource--stop pencil icon--------->
