@@ -1,3 +1,4 @@
+sudo snap install --classic heroku
 pip install django-heroku
 heroku create app_one_name
 https://app-one-name01.herokuapp.com/ | https://git.heroku.com/app-one-name01.git
