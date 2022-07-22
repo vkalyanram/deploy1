@@ -17,3 +17,8 @@ https://app-one-name01.herokuapp.com/ | https://git.heroku.com/app-one-name01.gi
 <-----heroku ps-------heroku ps:stop run.4859------------>
 https://www.analyticsvidhya.com/blog/2020/10/step-by-step-guide-for-deploying-a-django-application-using-heroku-for-free/
 <--------------to stop --app--resource--stop pencil icon--------->
+<<------------------edit and run code---------------------------->
+  739  git add .
+  740  git commit -m "Edit2"
+  741  git push heroku master
+
